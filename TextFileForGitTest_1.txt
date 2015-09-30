@@ -1,0 +1,13 @@
+https://github.com/quazis/groupchat_20150930.git
+
+echo # groupchat_20150930 >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git remote add origin https://github.com/quazis/groupchat_20150930.git
+git push -u origin master
+
+git remote add origin https://github.com/quazis/groupchat_20150930.git
+git push -u origin master
+
+C:\Users\User\Documents\NetBeansProjects\_getongo.co.uk

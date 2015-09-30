@@ -5,7 +5,7 @@ function add_post($userid, $message){
     $sql = "insert into posts (user_id, message, stamp) values ($userid, '". mysqli_real_escape_string($conn, $message). "',now())";
     $result = mysqli_query($conn, $sql);
 }
-
+////////////////////////////////////////////////////////////////////////////////
 function add_contact_us($userid, $message){
     global $conn;
     $sql = "insert into contact_us (user_id, message, stamp) values ($userid, '". mysqli_real_escape_string($conn, $message). "',now())";
